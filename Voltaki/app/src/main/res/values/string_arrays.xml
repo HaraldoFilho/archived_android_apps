@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Map Type options-->
+    <string-array name="setting_map_type">
+        <item>Normal</item>
+        <item>Satellite</item>
+        <item>Hybrid</item>
+    </string-array>
+
+    <!--Navigation Option options-->
+    <string-array name="setting_nav_option">
+        <item>Map</item>
+        <item>Navigator</item>
+    </string-array>
+
+    <!--Default Navigation Mode options-->
+    <string-array name="setting_def_nav_mode">
+        <item>Walk</item>
+        <item>Drive</item>
+        <item>Bicycle</item>
+    </string-array>
+
+    <!--Default Zoom Level options-->
+    <string-array name="setting_def_zoom_level">
+        <item>Auto</item>
+        <item>High</item>
+        <item>Mid</item>
+        <item>Low</item>
+    </string-array>
+
+    <!-- Maximum History Items options-->
+    <string-array name="setting_max_history_items">
+        <item>10</item>
+        <item>100</item>
+        <item>Unlimited</item>
+    </string-array>
+
+</resources>

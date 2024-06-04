@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="setting_map_type">
+        <item>Normal</item>
+        <item>Satélite</item>
+        <item>Híbrido</item>
+    </string-array>
+    <string-array name="setting_nav_option">
+        <item>Mapa</item>
+        <item>Navegador</item>
+    </string-array>
+    <string-array name="setting_def_nav_mode">
+        <item>Caminhada</item>
+        <item>Carro</item>
+        <item>Bicicleta</item>
+    </string-array>
+    <string-array name="setting_def_zoom_level">
+        <item>Automático</item>
+        <item>Alto</item>
+        <item>Médio</item>
+        <item>Baixo</item>
+    </string-array>
+    <string-array name="setting_max_history_items">
+        <item>10</item>
+        <item>100</item>
+        <item>Ilimitado</item>
+    </string-array>
+</resources>

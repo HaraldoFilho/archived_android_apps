@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+</head>
+<body>
+
+<h1>Tela Principal</h1>
+
+<h3><b>Barra do aplicativo</b></h3>
+  Exibe o nome do aplicativo e tem quatro opções:
+  <br><br><img src="../res/icons/ic_menu_white_24dp.png"/>  Abre a gaveta de navegação.
+  <br><img src="../res/icons/ic_flag_white_24dp.png"/>  Adiciona marcador.
+  <br><img src="../res/icons/ic_share_white_24dp.png"/>  Compartilha local.
+  <br><img src="../res/icons/ic_more_vert_white_24dp.png"/>  Abre o menu de opções.
+
+  <br><br><h3><b>Mapa</b></h3>
+  Mostra a localização atual se o botão está <span style="color: #ffcc00;"><b>AMARELO</b> </span>ou uma localização marcada se o botão está <span style="color: #43ca16;"><b>VERDE</b></span>. O mapa possui um <span style="color: #43ca16;"><b>botão flutuante verde </b></span>que se clicado faz com que o marcador vermelho retorne para o centro do mapa, ou se pressionado por alguns segundos quando o botão está <span style="color: #ffcc00;">AMARELO</span> atualiza o mapa.
+
+  <br><br><h3><b>Botão</b></h3>
+  O botão tem seis estados com o seguinte código de cores:
+  <br><br><b><span style="color: #ff0000;">VERMELHO </span>(<span style="color: #000000;">DESCONECTADO</span>)</b>
+  <br>As configurações de localização estão desligadas, assim não há nenhum provedor de localização disponível e o aplicativo não pode obter a localização atual, mas você pode configurar locais no mapa através das listas de marcadores e histórico. Você deve ligar as configurações de localização e reiniciar o aplicativo para obter a localização atual. Você pode pressionar o botão por alguns segundos para fazer a reinicialização.
+  <br><br><b><span style="color: #ff6600;">LARANJA </span>(<span style="color: #000000;">OBTENDO LOCALIZAÇÃO...</span>)</b>
+  <br>O aplicativo está obtendo a localização atual e o botão está desabilitado para cliques. Quando a localização é encontrada o botão se torna <span style="color: #ffcc00;">AMARELO</span>.
+  <br><br><b><span style="color: #ffcc00;">AMARELO </span>(<span style="color: #000000;">VOLTA AQUI</span>)</b>
+  <br>Se você clicar o botão o local atual será marcado, o botão se tornará <span style="color: #43ca16;">VERDE</span> e um ícone  de notificação aparecerá na barra de estado. Clicando no ícone o aplicativo <em>Google Maps™ </em>será aberto e você poderá navegar para o local marcado. Se você pressionar o botão por alguns segundos enquanto ele estiver <span style="color: #ffcc00;">AMARELO</span> uma caixa de diálogo se abrirá, onde você poderá adicionar o local atual à lista de marcadores. Você pode adicionar um nome para o local ou deixar em branco. No último caso, a data e horário atuais serão adicionadas como o nome do local.
+  <br><br><b><span style="color: #43ca16;">VERDE </span>(<span style="color: #000000;">VOLTAR</span>)</b>
+  <br>Se você clicar o botão o aplicativo <em>Google Maps™</em> será aberto e você poderá navegar para o local marcado. Esse pode ser o último local marcado ou um local que você escolheu da lista de histórico ou dos marcadores. Se você pressionar o botão por alguns segundos, uma caixa de diálogo se abrirá, onde você poderá reiniciar o aplicativo para o estado inicial. Nesse caso, o botão se tornará <span style="color: #ff6600;">LARANJA</span> novamente e o aplicativo irá procurar a localização atual. Quando a localização for encontrada, o botão se tornará <span style="color: #ffcc00;">AMARELO</span> e o mapa exibirá um marcador no local atual.
+  <br><br><b><span style="color: #43ca16;">VERDE </span>(<span style="color: #ffcc00;">VOLTAR</span>)</b>
+  <br>O mesmo comportamento do estado anterior, a cor amarela das letras apenas indica que o botão já foi clicado e você provavelmente está voltando para o local marcado. Depois que você voltar para o seu local de origem você precisará reiniciar o aplicativo através do menu de contexto ou pressionando o botão por alguns segundos.
+  <br><br><b><span style="color: #43ca16;">VERDE </span>(<span style="color: #ff0000;">VOLTAR</span>)</b>
+  <br>O mesmo comportamento dos dois estados anteriores, a cor vermelha das letras apenas indica que as configurações de localização estão desligadas, assim não há nenhum provedor de localização disponível. Você pode clicar o botão para abrir o aplicativo <em>Google Maps™</em> mas não será possível usar a navegação a menos que você ligue as configurações de localização.
+
+  <br><br><h3><b>Menu de opções</b></h3>
+  <b><img src="../res/icons/ic_flag_white_24dp.png" alt="ic_flag_white_24dp"/> </b><b>Adicionar marcador</b>
+  <br>Abre uma caixa de diálogo onde você poderá adicionar o local no mapa na lista de marcadores. Você pode adicionar um nome para o local ou deixar em branco. No último caso, a data e horário atuais serão adicionadas como o nome do local.
+  <br><br><b><img src="../res/icons/ic_share_white_24dp.png"/> </b><b>Compartilhar</b>
+  <br>Abre um menu em que você pode escolher dentre vários aplicativos para compartilhar o local no mapa através de um url que pode ser aberto no aplicativo <em>Google Maps™</em>.
+  <br><br><b>Reiniciar (quando o botão está <span style="color: #43ca16;">VERDE</span>)</b>
+  <br>Abre uma caixa de diálogo onde você poderá reiniciar o aplicativo. Nesse caso, se as configurações de localização estiverem ligadas,  o botão se tornará <span style="color: #ff6600;">LARANJA</span> novamente e o aplicativo irá procurar a localização atual. Quando a localização for encontrada, o botão se tornará <span style="color: #ffcc00;">AMARELO</span> e o mapa exibirá um marcador no local atual. Se as configurações de localização estiverem desligadas o botão se tornará <span style="color: #ff0000;">VERMELHO</span>.
+  <br><br><b>Reiniciar (quando o botão está <span style="color: #43ca16;"><span style="color: #ff0000;">VERMELHO</span></span>)</b>
+  <br>Mesmo comportamento anterior, mas a caixa de diálogo não se abrirá.
+  <br><br><b>Atualizar (quando o botão está <span style="color: #ffcc00;">AMARELO</span>)</b>
+  <br>Mesmo comportamento de Reiniciar, mas a caixa de diálogo não se abrirá.
+  <br><br><b>Ajuda</b>
+  <br>Exibe esta página de ajuda.
+
+  <br><br><h3><b>Gaveta de navegação</b></h3>
+  <b><a href="https://mohb-apps.github.io/Voltaki/help/br/bookmarks.html">Marcadores</a></b>
+  <br>Lista os locais em que você adicionou marcadores.
+  <br><br><b><a href="https://mohb-apps.github.io/Voltaki/help/br/history.html">Histórico</a></b>
+  <br>Lista os locais que você marcou ao clicar no botão amarelo.
+  <br><br><b><a href="https://mohb-apps.github.io/Voltaki/help/br/settings.html">Configurações</a></b>
+  <br>Tem opções para mudar o comportamento do aplicativo em algumas situações.
+  <br><br><b><a href="https://mohb-apps.github.io/Voltaki/help/br/index.html">Ajuda</a></b>
+  <br>Exibe a tela de tópicos de ajuda.
+  <br><br><span style="text-decoration: underline;"><b>Sobre</b></span>
+  <br>Exibe algumas informações sobre o aplicativo e o desenvolvedor.
+
+</body>
+</html>

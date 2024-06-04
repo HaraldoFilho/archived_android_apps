@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Color pallete-->
+    <color name="colorPrimary">#1fc406</color>
+    <color name="colorPrimaryDark">#1a7c07</color>
+    <color name="colorAccent">#31cf3e</color>
+
+    <!--Button colors-->
+    <color name="colorGetLocationButton">#ff7b00</color>
+    <color name="colorOfflineButton">#fa0c0c</color>
+    <color name="colorComeBackHereButton">#ffee00</color>
+    <color name="colorGoBackButton">#43ca16</color>
+    <color name="colorBlackTextButton">#000000</color>
+    <color name="colorWhiteTextButton">#ffffff</color>
+    <color name="colorYellowTextButton">#ffee00</color>
+
+    <!--Splash screen backgroud color-->
+    <color name="colorSplashBackgroud">#ffffff</color>
+
+</resources>

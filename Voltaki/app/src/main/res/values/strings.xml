@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Application version-->
+    <string name="version_name">version: </string>
+    <string name="version_number" translatable="false">1.1.5</string>
+    <string name="version_code" translatable="false">91</string>
+
+    <!--Application information-->
+    <string name="info_app_name" translatable="false">Voltaki</string>
+    <string name="info_app_url" translatable="false">http://goo.gl/3zOJcC</string>
+    <string name="info_name" translatable="false">mohb apps</string>
+    <string name="info_website">mohb.app</string>
+    <string name="info_feedback_email" translatable="false">feedback@mohb.app</string>
+    <string name="info_bug_email" translatable="false">bug@mohb.app</string>
+    <string name="info_developer">Developer:</string>
+    <string name="info_developer_name" translatable="false">Haraldo Albergaria Filho</string>
+    <string name="info_skype" translatable="false">skype: mohb.apps</string>
+    <string name="info_copyright_text" translatable="false">Copyright © 2016 mohb apps</string>
+    <string name="info_rights_reserved_text">All Rights Reserved.</string>
+
+    <!--System time-->
+    <string name="system_time_default" translatable="false">EEEE, MMMM d yyyy - K:m a</string>
+    <string name="system_time_pt" translatable="false">EEEE, d MMMM yyyy - HH:mm</string>
+
+    <!--Navigation drawer-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Menus titles-->
+    <string name="menu_bookmarks">Bookmarks</string>
+    <string name="menu_history">History</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_about">About</string>
+
+    <!--Activities titles-->
+    <string name="activity_title_bookmarks">Bookmarks</string>
+    <string name="activity_title_history">History</string>
+    <string name="activity_title_settings">Settings</string>
+    <string name="activity_title_help">Help</string>
+    <string name="activity_title_about">About</string>
+
+    <!--Map marker-->
+    <string name="map_you_are_here">You are here</string>
+    <string name="map_you_were_here">You were here</string>
+
+    <!--Button-->
+    <string name="button_offline">Offline</string>
+    <string name="button_get_location">Getting location…</string>
+    <string name="button_come_back_here">Come back here</string>
+    <string name="button_go_back">Go back</string>
+
+    <!--Actions menus-->
+    <string name="action_refresh">Refresh map</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_back">Back to origin</string>
+    <string name="action_add_bookmark">Add bookmark</string>
+    <string name="action_clear_history">Clear history</string>
+    <string name="action_defaults">Reset to defaults</string>
+    <string name="action_send_feedback">Send feedback</string>
+    <string name="action_send_question">Send question</string>
+    <string name="action_report_bug">Report a bug</string>
+    <string name="action_terms_of_use">Terms of use</string>
+    <string name="action_privacy_policy">Privacy policy</string>
+    <string name="action_legal_notices">Legal notices</string>
+    <string name="action_material_icons">Icons attribution</string>
+    <string name="action_website">Website</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="action_question">Question</string>
+    <string name="action_bug_report">Bug in application</string>
+    <string name="action_about_application">about application</string>
+    <string name="action_backup_bookmarks">Backup</string>
+    <string name="action_restore_bookmarks">Restore</string>
+    <string name="action_sort_bookmarks">Sort</string>
+    <string name="action_share">Share</string>
+    <string name="action_share_title">I\'ve shared a location with you</string>
+    <string name="action_share_message">Shared from Voltaki, available on Google Play</string>
+    <string name="action_share_here">I\'m here</string>
+    <string name="action_share_location">Location</string>
+
+    <!--Context menus-->
+    <string name="context_edit_name">Edit name</string>
+    <string name="context_edit_address">Edit address</string>
+    <string name="context_delete">Delete</string>
+    <string name="context_add_bookmark">Add bookmark</string>
+    <string name="context_share">Share</string>
+
+    <!--Alert dialogs-->
+    <string name="alert_title_reset">Reset?</string>
+    <string name="alert_title_reset_preferences">Restore default values?</string>
+    <string name="alert_title_are_you_sure">Delete location?</string>
+    <string name="alert_title_clear_history">Clear history?</string>
+    <string name="alert_title_sort_bookmarks">Sort bookmarks?</string>
+    <string name="alert_title_replace">Replace location?</string>
+    <string name="alert_title_no_maps">Google Maps is not installed or is deactivated</string>
+    <string name="alert_title_need_maps">Voltaki does not work without Google Maps</string>
+    <string name="alert_title_warning">WARNING!</string>
+    <string name="alert_title_backup">Backup bookmarks?</string>
+    <string name="alert_title_restore">Restore backup?</string>
+    <string name="alert_message_replace_location">A location is already set on map. Replace with this one?\n</string>
+    <string name="alert_message_clear_history">All history items will be permanently deleted\n</string>
+    <string name="alert_message_sort_bookmarks">The bookmarks list will be alphabetically sorted and the original order will be lost, but this will not affect any backup that had been made. This action can not be undone.\n </string>
+    <string name="alert_message_reset_map">The button will return to the initial state and the map will show the current location\n</string>
+    <string name="alert_message_reset_preferences">All settings will be restored to the default values\n</string>
+    <string name="alert_message_delete_item">This action can not be undone\n</string>
+    <string name="alert_message_location_provider_needed">Your location settings is turned off. At least one location provider is needed to the application work. Do you want to go to settings to turn it on? If you say no you won\'t be able to get a new location or navigate back, only browse the Bookmarks and History\n</string>
+    <string name="alert_message_loc_permission_needed">Voltaki needs permission to get device\'s location to work. Do you want to see the request permission dialog again?\n</string>
+    <string name="alert_message_backup">The backup file will be overwritten with the current backup list\n</string>
+    <string name="alert_message_restore">The current backup list will be replaced with the list in the backup file\n</string>
+    <string name="alert_message_ext_storage_access">Voltaki needs access to external storage in order to be able to backup and restore bookmarks. Do you want to see the request permission dialog again?\n</string>
+    <string name="alert_button_install">Install</string>
+    <string name="alert_button_yes">Yes</string>
+    <string name="alert_button_no">No</string>
+    <string name="alert_button_no_check">Do not warn again</string>
+
+    <!--Dialogs-->
+    <string name="dialog_title_location_name">Location name</string>
+    <string name="dialog_title_location_address">Location address</string>
+    <string name="dialog_title_tip">Tip</string>
+    <string name="dialog_message_tip_lists">Click on an item to go back to the location or press for a few seconds to see options\n</string>
+    <string name="dialog_message_tip_button_reset">You can also reset by pressing the button for a few seconds while it is green or red\n</string>
+    <string name="dialog_message_tip_button_refresh">You can also refresh the map by pressing the floating green button for a few seconds while the main button is yellow\n</string>
+    <string name="dialog_message_tip_button_add_bookmark">You can also add a bookmark by pressing the button for a few seconds while it is yellow\n</string>
+    <string name="dialog_message_tip_floating_button">Press the floating green button to return the red marker to the center\n</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_cancel">Cancel</string>
+    <string name="dialog_button_tip_ok">Do not show again</string>
+    <string name="dialog_view_title">Title</string>
+    <string name="dialog_view_text">text</string>
+
+    <!--Toasts-->
+    <string name="toast_backup_bookmarks">Bookmarks were backed up to:\n</string>
+    <string name="toast_restore_bookmarks">Bookmarks were restored from:\n</string>
+    <string name="toast_store_unavailable">Storage is unavailable</string>
+    <string name="toast_file_not_found">Backup file not found</string>
+    <string name="toast_added_bookmark">Bookmark added</string>
+    <string name="toast_cant_go_back">A location is already set on map</string>
+    <string name="toast_search_address">Searching for address…</string>
+    <string name="toast_no_address_found">No address found. Check your internet connection.</string>
+    <string name="toast_get_legal_notices">Loading text from internet…</string>
+    <string name="toast_no_legal_notices">Couldn\'t load legal notices text. Check your internet connection.</string>
+    <string name="toast_get_help_page">Loading help page from internet…</string>
+
+    <!--Notification-->
+    <string name="notification_channel_name">Go Back</string>
+    <string name="notification_channel_description">Click this notification to go back to original location</string>
+    <string name="notification_go_back">Click to go back</string>
+    <string name="notification_blank" translatable="false" />
+
+    <!--Layout resources-->
+    <string name="layout_location_name">Location Name</string>
+    <string name="layout_location_address">Location Address</string>
+    <string name="layout_time">Time</string>
+    <string name="layout_latitude">Latitude: </string>
+    <string name="layout_longitude">Longitude: </string>
+    <string name="layout_no_play_services_title">Google Play Services is not installed or needs to be updated</string>
+    <string name="layout_no_play_services_text">Voltaki needs Google Play Services up-to-date  to work\nPlease, install or update Google Play Services and reopen the application</string>
+    <string name="layout_press_back_button">Press back button to exit</string>
+    <string name="layout_no_maps_title">Google Maps is not installed or is deactivated</string>
+    <string name="layout_no_maps_text">Voltaki needs Google Maps to work\nPlease, install or activate Google Maps and reopen the application </string>
+
+    <!--Help pages-->
+    <string name="url_help_path">https://mohb-apps.github.io/Voltaki/help/</string>
+    <string name="url_help_index" translatable="false">index.html</string>
+    <string name="url_help_main" translatable="false">main.html</string>
+    <string name="url_help_bookmarks" translatable="false">bookmarks.html</string>
+    <string name="url_help_history" translatable="false">history.html</string>
+    <string name="url_help_settings" translatable="false">settings.html</string>
+
+    <!-- Settings Map Type-->
+    <string name="set_key_map_type" translatable="false">MAP_TYPE</string>
+    <string name="set_title_map_type">Map type</string>
+    <string name="set_map_type_normal">Normal</string>
+    <string name="set_map_type_satellite">Satellite</string>
+    <string name="set_map_type_hybrid">Hybrid</string>
+    <string name="set_map_type_default">Normal</string>
+
+    <!-- Settings Navigation Option-->
+    <string name="set_key_nav_option" translatable="false">NAVIGATION_OPTION</string>
+    <string name="set_title_nav_option">Navigation option</string>
+    <string name="set_nav_option_map">Map</string>
+    <string name="set_nav_option_navigator">Navigator</string>
+    <string name="set_nav_option_default">Map</string>
+
+    <!-- Settings Default Navigation Mode-->
+    <string name="set_key_def_nav_mode" translatable="false">DEFAULT_NAV_MODE</string>
+    <string name="set_title_def_nav_mode">Default navigation mode</string>
+    <string name="set_def_nav_mode_walk">Walk</string>
+    <string name="set_def_nav_mode_drive">Drive</string>
+    <string name="set_def_nav_mode_bicycle">Bicycle</string>
+    <string name="set_def_nav_mode_default">Walk</string>
+
+    <!-- Settings Default Zoom Level-->
+    <string name="set_key_def_zoom_level" translatable="false">DEFAULT_ZOOM_LEVEL</string>
+    <string name="set_title_def_zoom_level">Default zoom level</string>
+    <string name="set_def_zoom_auto">Auto</string>
+    <string name="set_def_zoom_high">High</string>
+    <string name="set_def_zoom_mid">Mid</string>
+    <string name="set_def_zoom_low">Low</string>
+    <string name="set_def_zoom_level_default">Auto</string>
+
+    <!-- Settings Vibrate Feedback-->
+    <string name="set_key_vib_feedback" translatable="false">BUTTON_VIBRATE</string>
+    <string name="set_title_vib_feedback">Button vibrate feedback</string>
+    <string name="set_vib_summ_on">Device vibrates with button click</string>
+    <string name="set_vib_summ_off">Device does not vibrate with button click</string>
+
+    <!-- Settings Long Click Action-->
+    <string name="set_key_long_click_actions" translatable="false">BUTTON_CLICK_ACTIONS</string>
+    <string name="set_title_long_click_actions">Button long click</string>
+    <string name="set_long_click_summ_on">Actions are enabled</string>
+    <string name="set_long_click_summ_off">Actions are disabled</string>
+
+    <!-- Settings Notification-->
+    <string name="set_key_notification" translatable="false">NOTIFICATION</string>
+    <string name="set_title_notification">Notification</string>
+    <string name="set_notification_summ_off">Notification is deactivated</string>
+
+    <!-- Settings Auto Backup-->
+    <string name="set_key_auto_backup" translatable="false">AUTO_BACKUP</string>
+    <string name="set_title_auto_backup">Bookmarks backup</string>
+    <string name="set_backup_summ_on">Automatic backup is activated</string>
+    <string name="set_backup_summ_off">Automatic backup is deactivated</string>
+
+    <!-- Settings Max History Items-->
+    <string name="set_key_max_history_items" translatable="false">HISTORY_MAX_ITEMS</string>
+    <string name="set_title_max_history_items">Maximum history items</string>
+    <string name="set_max_history_items_unlimited">Unlimited</string>
+    <string name="set_max_history_items_default">100</string>
+    <string name="set_max_history_items_10" translatable="false">10</string>
+    <string name="set_notification_summ_on">When clicked opens the map to go back</string>
+    <string name="title_activity_settings2">SettingsActivity2</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+</resources>

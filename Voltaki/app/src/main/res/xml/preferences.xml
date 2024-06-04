@@ -1,0 +1,75 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--Map Type preferences_old-->
+    <ListPreference
+        app:defaultValue="@string/set_map_type_default"
+        app:entries="@array/setting_map_type"
+        app:entryValues="@array/setting_map_type"
+        app:key="@string/set_key_map_type"
+        app:title="@string/set_title_map_type" />
+
+    <!--Navigation Option preferences_old-->
+    <ListPreference
+        app:defaultValue="@string/set_nav_option_default"
+        app:entries="@array/setting_nav_option"
+        app:entryValues="@array/setting_nav_option"
+        app:key="@string/set_key_nav_option"
+        app:title="@string/set_title_nav_option" />
+
+    <!--Default Navigation Mode preferences_old-->
+    <ListPreference
+        app:defaultValue="@string/set_def_nav_mode_default"
+        app:entries="@array/setting_def_nav_mode"
+        app:entryValues="@array/setting_def_nav_mode"
+        app:key="@string/set_key_def_nav_mode"
+        app:title="@string/set_title_def_nav_mode" />
+
+    <!--Default Zoom Level preferences_old-->
+    <ListPreference
+        app:defaultValue="@string/set_def_zoom_level_default"
+        app:entries="@array/setting_def_zoom_level"
+        app:entryValues="@array/setting_def_zoom_level"
+        app:key="@string/set_key_def_zoom_level"
+        app:title="@string/set_title_def_zoom_level" />
+
+    <!--Notification preferences_old-->
+    <SwitchPreferenceCompat
+        app:defaultValue="true"
+        app:key="@string/set_key_notification"
+        app:summaryOff="@string/set_notification_summ_off"
+        app:summaryOn="@string/set_notification_summ_on"
+        app:title="@string/set_title_notification" />
+
+    <!--Vibrate Feedback preferences_old-->
+    <SwitchPreferenceCompat
+        app:defaultValue="true"
+        app:key="@string/set_key_vib_feedback"
+        app:summaryOff="@string/set_vib_summ_off"
+        app:summaryOn="@string/set_vib_summ_on"
+        app:title="@string/set_title_vib_feedback" />
+
+    <!--Button Long Click preferences_old-->
+    <SwitchPreferenceCompat
+        app:defaultValue="true"
+        app:key="@string/set_key_long_click_actions"
+        app:summaryOff="@string/set_long_click_summ_off"
+        app:summaryOn="@string/set_long_click_summ_on"
+        app:title="@string/set_title_long_click_actions" />
+
+    <!--Bookmarks Auto Backup preferences_old-->
+    <SwitchPreferenceCompat
+        app:defaultValue="false"
+        app:key="@string/set_key_auto_backup"
+        app:summaryOff="@string/set_backup_summ_off"
+        app:summaryOn="@string/set_backup_summ_on"
+        app:title="@string/set_title_auto_backup" />
+
+    <!--Maximum History Items preferences_old-->
+    <ListPreference
+        app:defaultValue="@string/set_max_history_items_default"
+        app:entries="@array/setting_max_history_items"
+        app:entryValues="@array/setting_max_history_items"
+        app:key="@string/set_key_max_history_items"
+        app:title="@string/set_title_max_history_items" />
+
+</PreferenceScreen>

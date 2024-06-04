@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/layout_time"
+        android:id="@+id/txtTime"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_below="@+id/txtTime"
+        android:text="@string/layout_location_address"
+        android:id="@+id/txtLocationAddress"
+        android:singleLine="false"
+        android:layout_marginBottom="12dp"
+        android:textColor="#000000" />
+
+
+</RelativeLayout>

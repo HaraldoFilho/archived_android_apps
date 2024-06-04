@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+<h1>Main Screen</h1>
+
+<h3><b>App bar</b></h3>
+Displays the page name and has four options:<br><br>
+<img src="res/icons/ic_menu_white_24dp.png"/>  Opens the navigation drawer.<br>
+<img src="res/icons/ic_flag_white_24dp.png"/>  Add bookmark.<br>
+<img src="res/icons/ic_share_white_24dp.png"/>  Share location.<br>
+<img src="res/icons/ic_more_vert_white_24dp.png"/>  Opens the options menu.<br>
+
+<br><h3><b>Map</b></h3>
+Displays the current location if the button is <span style="color:#ffcc00;"><b>YELLOW</b> </span>or a marked location if it is <span style="color:#43ca16;"><b>GREEN</b></span>. The map has a <span style="color:#43ca16;"><b>green floating button</b></span> that if clicked bring back the red marker to the center of the map, or if pressed for a few seconds while the button is <span style="color:#ffcc00;">YELLOW</span> refresh the map.<br>
+<br><h3><b>Button</b></h3>
+The button has six states with the following color code:<br>
+<br><b><span style="color:#ff0000;">RED </span>(<span style="color:#000000;">OFFLINE</span>)</b><br>
+The location settings are turned off, so there is no location provider available and the app can not get the current location. But, you can set locations on the map through the history and bookmarks lists. You must turn on the location settings and reset the application in order to get the current location. You can press the button for a few seconds to do the reset.<br>
+<br><b><span style="color:#ff6600;">ORANGE</span> (<span style="color:#000000;">GETTING LOCATION...</span>)</b><br>
+The app is getting the current location and the button is disabled for clicks. When location is found the button turns <span style="color:#ffcc00;">YELLOW</span>.<br>
+<br><b><span style="color:#ffcc00;">YELLOW</span> (<span style="color:#000000;">COME BACK HERE</span>)</b><br>
+If you click the button the current location will be marked, the button turns <span style="color:#43ca16;">GREEN</span> and an notification icon will appear on the status bar. Clicking on the notification will open <em>Google Maps™ </em>app and you can navigate to the location marked. If you press for a few seconds the button when <span style="color:#ffcc00;">YELLOW</span>, a dialog window will open on which you can add the current location to Bookmarks. You can type a name to the location or leave the text field blank. In the latter case, the current date and time will be assigned as location name.<br>
+<br><b><span style="color:#43ca16;">GREEN</span> (<span style="color:#000000;">GO BACK</span>)</b><br>
+If you click the button the <em>Google Maps™</em> app will be opened and you can navigate to the location marked. This can be the last location marked or a location that you chose from History or Bookmarks. If you press for a few seconds the button, a dialog window will open on which you can reset the app to the initial state. In this case, the button turns <span style="color:#ff6600;">ORANGE</span> again and the app will search for the current location. When the location is found, the button turns <span style="color:#ffcc00;">YELLOW</span> and the map will display a marker on the current location.<br>
+<br><b><span style="color:#43ca16;">GREEN</span> (<span style="color:#ffcc00;">GO BACK</span>)</b><br>
+Same behavior of the previous state, the yellow color on the letters just indicates that the button was already clicked and you probably is going back to the location marked. After you are back to your origin location you need to reset the app through context menu or pressing the button for a few seconds.<br>
+<br><b><span style="color:#43ca16;">GREEN</span> (<span style="color:#ff0000;">GO BACK</span>)</b><br>
+Same behavior of the two previous states, the red color on the letters just indicates that the location settings are turned off, so there is no location provider available. You can click the button to open the <em>Google Maps™</em> app but it will be not possible to navigate unless you turn the location settings on.<br>
+
+<br><h3><b>Options menu</b></h3>
+<b><img src="res/icons/ic_flag_white_24dp.png"/> </b><b>Add to bookmarks</b><br>
+Opens a dialog window on which you can add the location on the map to the bookmarks list. You can type a name to the location or leave the text field blank. In the latter case, the current date and time will be assigned as location name.<br>
+<br><b><img src="res/icons/ic_share_white_24dp.png"/> Share</b><br>
+Opens a menu where you can choose between some applications to share the location on map through a url that can be opened on the <em>Google Maps™ app</em>.<br>
+<br><b>Reset (when button is <span style="color:#43ca16;">GREEN</span>)</b>
+<br>Same behavior, but the dialog window will not be opened.<br>
+<br><b>Refresh (when button is <span style="color:#ffcc00;">YELLOW</span>)</b>
+<br>Same behavior of Reset, but the dialog window will not be opened.<br>
+<br><b>Help</b>
+<br>Displays this help screen.<br>
+ 
+<br><h3><b>Navigation drawer</b></h3>
+<b><a href="https://mohb-apps.github.io/Voltaki/help/bookmarks.html">Bookmarks</a></b><br>
+Lists the locations that you added to bookmarks.<br>
+<br><b><a href="https://mohb-apps.github.io/Voltaki/help/history.html">History</a></b><br>
+Lists the locations that you marked when clicking on the yellow button.<br>
+<br><b><a href="https://mohb-apps.github.io/Voltaki/help/settings.html">Settings</a></b><br>
+Has options to change the behavior of the application in some situations.<br>
+<br><b><a href="https://mohb-apps.github.io/Voltaki/help/index.html">Help</a></b><br>
+Displays the help topics page.<br>
+<br><span style="text-decoration:underline;"><b>About</b></span><br>
+Displays some information about the app and the developer.<br>
+
+</body>
+</html>
